@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>day1-登录</title>
+<style type="text/css">
+    ul{
+    list-style: none;
+    float: left;
+    }
+    li{
+    display: none;
+    }
+</style>
+<script type="text/javascript">
+    function disp(){
+    for(var i = 0; i<3; i++){
+    document.getElementsByClassName('sss')[i].style.display='block';
+    }
+    }
+    function out(){
+    for(var i = 0; i<3; i++){
+    document.getElementsByClassName('sss')[i].style.display='none';
+    }
+    }
+    </script>
+</head>
+ 
+<body style="background-image: url(../../src/img/day1/LoginBackground.png); background-repeat: no-repeat; background-size: cover;">
+    <div style="text-align: left; vertical-align: middle;">
+        <a href="./home.html"><img src="../../src/img/day1//Logo.png" alt="Logo" width="100" style="float: left;"></a>
+        <ul onmouseover="disp()" onmouseout="out()" >欢迎登陆~
+            <li class="sss"><a href="">主页</a></li>
+            <li class="sss"><a href="">照片</a></li>
+            <li class="sss"><a href="">联系我</a></li>
+        </ul>
+    </div>
+        <div style="float: right;background-color:white; border-radius: 10px; margin: 15% 25% 10% ; padding: 30px 20px; width: 20%;align-items: center; " >
+            <form action="./home.html" method="POST" style="width: 100%;">
+                <table style="text-align: center;width: 100%;" >
+                    <tr>
+                        <td>
+                            账户登录
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="username" placeholder="用户名" style="border-radius: 20px;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" name="password" placeholder="密码" style="border-radius: 20px;"></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" style="border-radius: 20px; width: 50%;">登录</button></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><a href="./register.html">注册账户</a></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+    
+</body>
+ 
+</html>
