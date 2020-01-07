@@ -1,0 +1,17 @@
+.banner{
+    position: relative;
+    background-image: url(../../img/yuante/banner-bg.jpg);
+    height: 840px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 250px;
+}
+
+.banner h1{
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+.banner h3{
+    font-weight: bold;
+}
